@@ -31,7 +31,7 @@ chmod +x pcd-dump.sh
 Execute the script to start the dump collection:
 
 ```bash
-./pcd-dumpctl.sh
+./pcd-dump.sh
 ```
 
 The script will automatically collect:  
