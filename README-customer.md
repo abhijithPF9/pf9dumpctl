@@ -17,11 +17,11 @@ The dump captures cluster resources and logs, which can be shared with Platform9
 
 ### 📥 Step 1: Download the Collection Script
 
-On a **node**, download the `pcd-dump.sh` script:
+On a **node**, download the `pcddump.sh` script:
 
 ```bash
-curl -o pcd-dump.sh https://platform9.com/tools/pcd-dumpctl.sh
-chmod +x pcd-dump.sh
+curl -o pcddump.sh https://platform9.com/tools/pcddump.sh
+chmod +x pcddump.sh
 ```
 
 ---
@@ -31,7 +31,7 @@ chmod +x pcd-dump.sh
 Execute the script to start the dump collection:
 
 ```bash
-./pcd-dump.sh
+./pcddump.sh
 ```
 
 The script will automatically collect:  
