@@ -38,8 +38,6 @@ The script will automatically collect:
 - Namespaced and cluster-wide Kubernetes resources (`yaml` + `describe`)  
 - Pod logs (including failed/non-running pods)  
 - Node and pod resource usage metrics  
-- Cluster version details  
-- Checksums for validation  
 
 ---
 
