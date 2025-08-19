@@ -35,7 +35,8 @@ Execute the script to start the dump collection:
 ```
 
 The script will automatically collect:  
-- Namespaced and cluster-wide Kubernetes resources (`yaml` + `describe`)  
+- Namespace resources like configmaps,endpoints,pvc etc
+- Cluster-wide Kubernetes resources like persistentvolumes, storageclasses etc
 - Pod logs (including failed/non-running pods)  
 - Node and pod resource usage metrics  
 
@@ -46,7 +47,7 @@ The script will automatically collect:
 Once finished, the dump will be stored in `/tmp/` as a timestamped `.tar.gz` file. Example:
 
 ```bash
-/tmp/cluster-dump-2025-08-19_14-30-10.tar.gz
+/tmp/pcddump-2025-08-19_14-30-10.tar.gz
 ```
 
 ---
