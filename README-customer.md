@@ -33,6 +33,7 @@ Execute the script to start the dump collection:
 ```bash
 ./pcddump.sh
 ```
+Note: Make sure that all the Pre-Requisites are followed
 
 The script will automatically collect:  
 - Namespace resources like configmaps,endpoints,pvc etc
